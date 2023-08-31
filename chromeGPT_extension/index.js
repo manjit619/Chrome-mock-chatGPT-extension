@@ -8,7 +8,7 @@ app.use(cors());
 
 app.post('/ask', (req, res) => {
   const question = req.body.question;
-  const response = "Hello from GenAI!";
+  const response = "Hello from Mock GPT! This is a pre-defined message for you. Hope you're doing well!";
   res.json({ response });
 });
 

@@ -1,0 +1,38 @@
+
+body{
+    width: 300px;
+    border-radius: 10px; 
+    padding: 10px;
+    border: 1px solid black; 
+  }
+
+html{
+    background-color: #16e0bd;
+    border: black;
+}
+
+.inputArea{
+    width: 98%;
+    border: 1px solid #333;
+    border-radius: 4px;
+}
+
+.btn{
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    display: block;
+    margin: 0.5em auto 0;
+    border-radius: 5px;
+    box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+    transition: transform 200ms ease-in-out;
+  }
+  .btn:hover{
+    transform: scale(1.1);
+  }
+
+  .response{
+    
+    display: block;
+    margin: 0.2em auto 0;
+  }
